@@ -11,7 +11,8 @@ if (jogo) {
     const pontuaçaoUsuario = carta1Usuario.valor + carta2Usuario.valor
     const pontuaçaoComputador = carta1Computador.valor + carta2Computador.valor
 
-
+    console.log(`Usuário - cartas: ${carta1Usuario.texto} ${carta2Usuario.texto} - ${pontuaçaoUsuario}`)
+    console.log(`Computador - cartas: ${carta1Computador.texto} ${carta2Computador.texto} - ${pontuaçaoComputador}`)
 
     if (pontuaçaoUsuario > pontuaçaoComputador) {
         console.log("O usuário ganhou!")
